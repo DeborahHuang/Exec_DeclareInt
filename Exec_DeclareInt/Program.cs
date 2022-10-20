@@ -52,7 +52,15 @@ namespace Exec_DeclareInt
 				Console.WriteLine($"{value2}為奇數");
 			}
 
+			//第四題:根據兩個變數的大小 視需要對調兩個變數的值
+			int begin = 50; 
+			int end = 20;
 
+			var temp=begin;
+			begin = end;
+			end = temp;
+
+			Console.WriteLine($"{begin} ~ {end}");
 		}
 	}
 }
